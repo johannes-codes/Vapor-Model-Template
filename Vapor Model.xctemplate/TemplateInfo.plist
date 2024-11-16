@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>VaporModelFiles</string>
+	<key>Description</key>
+	<string>Vapor Model Files</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of your Model (i.e. User).</string>
+			<key>Default</key>
+			<string></string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Model name (i.e. User):</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string></string>
+			<key>Description</key>
+			<string>The name of your schema (i.e. users)</string>
+			<key>Identifier</key>
+			<string>schema</string>
+			<key>Name</key>
+			<string>Schema Name (i.e. users):</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string></string>
+			<key>Description</key>
+			<string>The Name of your Model but in Lowercase (i.e. user)</string>
+			<key>Identifier</key>
+			<string>productNameLowercased</string>
+			<key>Name</key>
+			<string>Model Name Lowercased (i.e. user):</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string></string>
+			<key>Description</key>
+			<string>The Name of your URL query (i.e. :user_id)</string>
+			<key>Identifier</key>
+			<string>queryName</string>
+			<key>Name</key>
+			<string>Query Name (i.e. :user_id):</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+</dict>
+</plist>
